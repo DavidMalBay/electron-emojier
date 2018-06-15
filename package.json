@@ -1,0 +1,20 @@
+{
+  "name": "electron-emojier",
+  "version": "1.0.0",
+  "description": "outputs the emojis for the input text",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "david",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^2.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "node-emoji": "^1.8.1",
+    "popper.js": "^1.14.3"
+  }
+}

@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Sample Menubar App</title>
+    <script charset="utf-8">require('./index')</script>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js" onload="window.$ = window.jQuery = module.exports;"></script>
+
+  </head>
+  <body>
+    <form class="text-center">
+    <div class="form-group">
+      <textarea class="form-control" id="main"></textarea>
+    </div>
+  </form>
+  
+  </body>
+</html>
+
+<style>
+  #main{
+    padding: 20px !important;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+
+<script>
+    require('./renderer.js')
+
+</script>
